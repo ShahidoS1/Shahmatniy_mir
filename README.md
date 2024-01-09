@@ -1,6 +1,6 @@
 # House Project.
 
-Делал для себя чтобы просто потренироваться.
+Делал для себя, чтобы просто потренироваться.
 
 ## В проекте использовал:
 * добаление изображений;
@@ -12,4 +12,4 @@
 
 **Доделать можно адаптив для экранов мобильных утройств**
 
-**[макет с Figma](https://www.figma.com/file/SjHvI8W1yzwJjzyUrCPpsI/House?type=design&node-id=3%3A838&t=VZiVKXvlLixjtJN8-1)**
+**[Макет с Figma](https://www.figma.com/file/SjHvI8W1yzwJjzyUrCPpsI/House?type=design&node-id=3%3A838&t=VZiVKXvlLixjtJN8-1)**
