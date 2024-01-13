@@ -1,0 +1,24 @@
+.button {
+  width: 225px;
+  height: 65px;
+  border: solid 1px #598D66;
+  background: transparent;
+  color: #598D66;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #fff;
+  background: #598D66;
+  transition: 0.5s ease;
+}
+
+.button:focus {
+  background-color: #D4E8D9;
+}
+
+.button:active {
+  background-color: #376B44;
+  color: #fff;
+}

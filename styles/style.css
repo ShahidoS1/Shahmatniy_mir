@@ -1,395 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.page {
-  font-family: 'Raleway', sans-serif;
-  color: #2C2D35;
-  margin: 0 auto;
-}
-
-.header {
-  width: 100%;
-  height: 100px;
-  background:#E1EDE6;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.container {
-  width: 1140px;
-  padding: 0 15px 0 15px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center ;
-}
-
-.header__logo {
-  display: flex;
-  max-width: 143px;
-  max-height: 35px;
-
-}
-
-.header__logo:hover {
-  opacity: .5;
-  transition: 0.5s ease;
-  cursor: pointer;
-}
-
-.header__logo_img {
-  width: 100%;
-  background-repeat: no-repeat;
-}
-
-.nav__container {
-  display: flex;
-  align-items: center;
-}
-
-.nav {
-  width: 472px;
-}
-
-.nav__list {
-  display: flex;
-  list-style-type: none;
-  gap: 60px;
-  margin: 0;
-  padding: 0;
-}
-
-.nav__link {
-  text-decoration: none;
-  font-size: 20px;
-  color: #2C2D35;
-}
-
-.nav__link:hover {
-  color: #598D66;
-  opacity: .5;
-  transition: 0.5s ease;
-  cursor: pointer;
-}
-
-.recicle {
-  display: block;
-  width: 24px;
-  height: 24px;
-  background-image: url(../images/recicle.svg);
-  background-repeat: no-repeat;
-}
-
-.recicle:hover {
-  color: #598D66;
-  opacity: .5;
-  transition: 0.5s ease;
-  cursor: pointer;
-}
-
-.intro {
-  max-width: 1110px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto 70px;
-  gap: 30px;
-
-}
-
-.intro__left {
-  width: 540px;
-  height: 331px;
-}
-
-.intro__image {
-  width: 100%;
-  height: 100%;
-}
-
-.intro__title {
-  font-weight: 500;
-  margin: 0;
-  padding: 0;
-  font-size: 60px;
-  line-height: 66px;
-  margin-bottom: 20px;
-}
-
-.title-span {
-  color: #598D66;
-}
-
-.intro__discription {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-  color: #86928B;
-  margin-bottom: 60px;
-}
-
-.button {
-  width: 225px;
-  height: 65px;
-  border: solid 1px #598D66;
-  background: transparent;
-  color: #598D66;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.button:hover {
-  color: #fff;
-  background: #598D66;
-  opacity: .5;
-  transition: 0.5s ease;
-}
-
-.catalog {
-  max-width: 1110px;
-  margin: 0 auto 70px;
-}
-
-.catalog__choice {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-.catalog__title {
-  padding: 0;
-  margin: 0;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 44px;
-}
-
-.catalog__list {
-  display: flex;
-  list-style-type: none;
-  gap: 30px;
-}
-
-.catalog__button {
-  color: #2C2D35;
-  background: #D4E8D9;;
-  border-radius: 20px;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 20px;
-  line-height: 23px;
-}
-
-.catalog__button:hover {
-  color: #fff;
-  background: #598D66;
-  opacity: .5;
-  transition: 0.5s ease;
-}
-
-.catalog__card {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
-.card {
-  background: #E1EDE6;
-  padding: 20px 20px 30px 20px;
-}
-
-.card__img {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.card__author {
-  font-size: 18px;
-  line-height: 21px;
-  color: #86928B;
-  margin-bottom: 10px;
-}
-
-.card__name-art {
-  font-size: 30px;
-  line-height: 35px;
-  margin-bottom: 8px;
-}
-
-.card__material {
-  font-size: 18px;
-  line-height: 21px;
-  margin-bottom: 30px;
-}
-
-.card__price {
-  font-size: 24px;
-  line-height: 28px;
-  color: #598D66;
-  margin-bottom: 20px;
-}
-
-.card__button {
-  width: 310px;
-}
-
-.promo {
-  max-width: 1410px;
-  background-image: url('../images/pic_background.jpg');
-  width: 100%;
-  padding: 70px 0;
-  margin: 0 auto 70px;
-}
-
-.promo__container {
-  max-width: 1110px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.promo__div {
-  max-width: 521px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 20px;
-}
-
-.star__logo {
-  width: 80px;
-  height: 80px;
-}
-
-.promo__title {
-  padding: 0;
-  font-size: 40px;
-  line-height: 40px;
-  color: #E1EDE6;
-}
-
-.promo__description {
-  max-width: 540px;
-  font-size: 18px;
-  line-height: 27px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-.prommo__button {
-  margin-top: 60px;
-  background: #EEDB6D;
-  color: #2C2D35;
-  border: none;
-  width: 257px;
-}
-
-.team {
-  display: flex;
-  gap: 30px;
-  margin-bottom: 70px;
-}
-
-.team__desc {
-  margin-top: 124px;
-}
-
-.team__title {
-  color: #2C2D35;
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 1.1;
-  margin-bottom: 20px;
-}
-
-.team__text {
-  color: #2C2D35;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-.team__photo {
-  display: flex;
-  gap: 30px;
-}
-
-.team__photo-img {
-}
-
-.team-img {
-}
-
-.footer {
-  background-color: #E1EDE6;
-  padding: 23px 0;
-}
-
-.footer__div {
-  align-items: start;
-}
-
-.footer__logo {
-  
-}
-
-.phone {
-  margin-top: 35px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.phone__number {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 23px;
-  text-decoration: none;
-  color: #2C2D35;
-}
-
-.phone__contact {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 21px;
-  color: #86928B;
-}
-
-.footer__nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  gap: 60px;
-}
-
-.footer__nav-list {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.footer__nav-title {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 23px;
-  color: #2C2D35;
-}
-
-.footer__nav-link {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 27px;
-  color: #86928B;
-  text-decoration: none;
-}
-
-
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo_img/header__logo_img.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__container/nav__container.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__recicle/nav__recicle.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__left/intro__left.css);
+@import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__discription/intro__discription.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/catalog/catalog.css);
+@import url(../blocks/catalog/__container/catalog__container.css);
+@import url(../blocks/catalog/__choice/catalog__choice.css);
+@import url(../blocks/catalog/__title/catalog__title.css);
+@import url(../blocks/catalog/__list/catalog__list.css);
+@import url(../blocks/catalog/__button/catalog__button.css);
+@import url(../blocks/catalog/__card/catalog__card.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__author/card__author.css);
+@import url(../blocks/card/__name-art/card__name-art.css);
+@import url(../blocks/card/__material/card__material.css);
+@import url(../blocks/card/__price/card__price.css);
+@import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/star-logo/star-logo.css);
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__container/promo__container.css);
+@import url(../blocks/promo/__div/promo__div.css);
+@import url(../blocks/promo/__title/promo__title.css);
+@import url(../blocks/promo/__description/promo__description.css);
+@import url(../blocks/promo/__button/prommo__button.css);
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__desc/team__desc.css);
+@import url(../blocks/team/__title/team__title.css);
+@import url(../blocks/team/__text/team__text.css);
+@import url(../blocks/team/__photo/team__photo.css);
+@import url(../blocks/team/__photo-img/team__photo-img.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__div/footer__div.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__nav-list/footer__nav-list.css);
+@import url(../blocks/footer/__nav-title/footer__nav-title.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__social-link1/footer__social-link1.css);
+@import url(../blocks/footer/__social-link2/footer__social-link2.css);
+@import url(../blocks/footer/__social-link3/footer__social-link3.css);
+@import url(../blocks/footer/__rights/footer__rights.css);
+@import url(../blocks/footer/__rights-desc/footer__rights-desc.css);
+@import url(../blocks/phone/phone.css);
+@import url(../blocks/phone/__number/phone__number.css);
+@import url(../blocks/phone/__contact/phone__contact.css);

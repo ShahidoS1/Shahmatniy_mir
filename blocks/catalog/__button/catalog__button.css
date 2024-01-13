@@ -1,0 +1,31 @@
+.catalog__button {
+  color: #2C2D35;
+  background: #D4E8D9;
+  ;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 23px;
+  box-sizing: border-box;
+}
+
+.catalog__button:hover {
+  color: #fff;
+  background: #598D66;
+  transition: 0.5s ease;
+}
+
+
+
+.catalog__button:active {
+  background-color: #376B44;
+  color: #fff;
+}
+
+.active {
+  border: 2px solid #598D66;
+  background: #D4E8D9;
+  padding: 8px 18px;
+}

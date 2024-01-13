@@ -1,0 +1,12 @@
+.footer__logo {
+  display: flex;
+  max-width: 143px;
+  max-height: 35px;
+
+}
+
+.footer__logo:hover {
+  opacity: .5;
+  transition: 0.5s ease;
+  cursor: pointer;
+}

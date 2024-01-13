@@ -1,0 +1,19 @@
+.nav__link {
+  text-decoration: none;
+  font-size: 20px;
+  color: #2C2D35;
+}
+
+.nav__link:hover {
+  color: #598D66;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.nav__link:focus {
+  background: #D4E8D9;
+}
+
+.nav__link:active {
+  color: #376B44;
+}

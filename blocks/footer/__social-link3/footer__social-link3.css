@@ -1,0 +1,20 @@
+.footer__social-link3 {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/Youtube.svg);
+}
+
+.footer__social-link3:hover {
+  color: #598D66;
+  transition: 0.5s ease;
+}
+
+.footer__social-link3:focus {
+  background-color: #D4E8D9;
+}
+
+.footer__social-link3:active {
+  background-color: #376B44;
+  color: #fff;
+}

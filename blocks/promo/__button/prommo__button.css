@@ -1,0 +1,21 @@
+.prommo__button {
+  margin-top: 60px;
+  background: #EEDB6D;
+  color: #2C2D35;
+  border: none;
+  width: 257px;
+}
+
+.prommo__button:hover {
+  background: #FAEB97;
+  color: #2C2D35;
+}
+
+.prommo__button:focus {
+  border: 1px solid #A38314;
+  background: #FAEB97;
+}
+
+.prommo__button:active {
+  background: #D9B949;
+}

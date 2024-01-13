@@ -1,0 +1,8 @@
+.page {
+  max-width: 1410px;
+  font-family: 'Raleway', sans-serif;
+  color: #2C2D35;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #F4F6F5;
+}
