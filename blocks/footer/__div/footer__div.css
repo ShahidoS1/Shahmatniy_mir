@@ -1,3 +1,4 @@
 .footer__div {
+  display: flex;
   align-items: start;
 }

@@ -1,5 +1,30 @@
 .catalog__card {
-  display: grid;
+  display: none;
+  
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  
+}
+
+.catalog__card.active {
+  display: grid;
+  animation: ani .5s forwards;
+}
+
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1145px) {
+  .catalog__card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+
 }

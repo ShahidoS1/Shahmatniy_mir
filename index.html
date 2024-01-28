@@ -10,21 +10,19 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="container">
+      <div class="header__container">
         <a href="#" class="header__logo">
-          <img class="header__logo_img" src="images/logo.svg" alt="logo">
+          <img class="header__logo_img" src="images/icons/logo.svg" alt="logo">
         </a>
-        <div class="nav__container">
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item"><a href="#" class="nav__link">Репродукции</a></li>
-              <li class="nav__item"><a href="#" class="nav__link">Новинки</a></li>
-              <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
-              <li class="nav__item"><a href="#" class="nav__link nav__recicle"></a></li>
-            </ul>
-          </nav>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Репродукции</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Новинки</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+            <li class="nav__item"><a href="#" class="nav__link nav__recicle"></a></li>
+          </ul>
+        </nav>
           
-        </div>
       </div>
     </header>
     <section class="intro">
@@ -44,14 +42,14 @@
         <div class="catalog__choice">
           <h1 class="catalog__title">Репродукции</h1>
             <ul class="catalog__list">
-              <li class="catalog__inner"><button class="catalog__button active">Франция</button></li>
-              <li class="catalog__inner"><button class="catalog__button">Германия</button></li>
-              <li class="catalog__inner"><button class="catalog__button">Англия</button></li>
+              <li class="catalog__inner"><button class="catalog__button" data-tab="#france">Франция</button></li>
+              <li class="catalog__inner"><button class="catalog__button" data-tab="#germany">Германия</button></li>
+              <li class="catalog__inner"><button class="catalog__button" data-tab="#england">Англия</button></li>
             </ul>
         </div>
-        <div class="catalog__card france">
+        <div class="catalog__card" id="france">
           <div class="card">
-            <img src="images/amur.jpg" alt="" class="card__img">
+            <img src="images/france/amur.jpg" alt="" class="card__img">
             <h3 class="card__author">Марсель Руссо</h3>
             <h2 class="card__name-art">Охота Амура</h2>
             <p class="card__material">Холст, масло (50х80)</p>
@@ -59,7 +57,7 @@
             <button class="button card__button">В корзину</button>
           </div>
           <div class="card">
-            <img src="images/ledi.jpg" alt="" class="card__img">
+            <img src="images/france/ledi.jpg" alt="" class="card__img">
             <h3 class="card__author">Анри Селин</h3>
             <h2 class="card__name-art">Дама с собачкой</h2>
             <p class="card__material">Акрил, бумага (50х80)</p>
@@ -67,7 +65,7 @@
             <button class="button card__button">В корзину</button>
           </div>
           <div class="card">
-            <img src="images/procedura.jpg" alt="" class="card__img">
+            <img src="images/france/procedura.jpg" alt="" class="card__img">
             <h3 class="card__author">Франсуа Дюпон</h3>
             <h2 class="card__name-art">Процедура</h2>
             <p class="card__material">Цветная литография (40х60)</p>
@@ -75,7 +73,7 @@
             <button class="button card__button">В корзину</button>
           </div>
           <div class="card">
-            <img src="images/rose.jpg" alt="" class="card__img">
+            <img src="images/france/rose.jpg" alt="" class="card__img">
             <h3 class="card__author">Луи Детуш</h3>
             <h2 class="card__name-art">Роза</h2>
             <p class="card__material">Бумага, акрил (50х60)</p>
@@ -83,7 +81,7 @@
             <button class="button card__button">В корзину</button>
           </div>
           <div class="card">
-            <img src="images/bird_trapeza.jpg" alt="" class="card__img">
+            <img src="images/france/bird_trapeza.jpg" alt="" class="card__img">
             <h3 class="card__author">Франсуа Дюпон</h3>
             <h2 class="card__name-art">Птичья трапеза</h2>
             <p class="card__material">Цветная литография (40х60)</p>
@@ -91,11 +89,111 @@
             <button class="button card__button">В корзину</button>
           </div>
           <div class="card">
-            <img src="images/peyzazh.jpg" alt="" class="card__img">
+            <img src="images/france/peyzazh.jpg" alt="" class="card__img">
             <h3 class="card__author">Пьер Моранж</h3>
             <h2 class="card__name-art">Пейзаж с рыбой</h2>
             <p class="card__material">Цветная литография (40х60)</p>
             <h2 class="card__price">20 000 руб</h2>
+            <button class="button card__button">В корзину</button>
+          </div>
+        </div>
+        <div class="catalog__card" id="germany">
+          <div class="card">
+            <img src="images/germany/germany01.jpg" alt="" class="card__img">
+            <h3 class="card__author">Курт Вернер</h3>
+            <h2 class="card__name-art">Над городом</h2>
+            <p class="card__material">Цветная литография (40х60)</p>
+            <h2 class="card__price">16 000 руб</h2>
+            <button class="button card__button">В корзину</button>
+          </div>
+          <div class="card">
+            <img src="images/germany/germany02.jpg" alt="" class="card__img">
+            <h3 class="card__author">Макс Рихтер</h3>
+            <h2 class="card__name-art">Птенцы</h2>
+            <p class="card__material">Холст, масло (50х80)</p>
+            <h2 class="card__price">14 500 руб</h2>
+            <button class="button card__button">В корзину</button>
+          </div>
+          <div class="card">
+            <img src="images/germany/germany03.jpg" alt="" class="card__img">
+            <h3 class="card__author">Мартин Майер</h3>
+            <h2 class="card__name-art">Среди листьев</h2>
+            <p class="card__material">Цветная литография (40х60)</p>
+            <h2 class="card__price">20 000 руб</h2>
+            <button class="button card__button">В корзину</button>
+          </div>
+          <div class="card">
+            <img src="images/germany/germany04.jpg" alt="" class="card__img">
+            <h3 class="card__author">Герман Беккер</h3>
+            <h2 class="card__name-art">Яркая птица</h2>
+            <p class="card__material">Цветная литография (40х60)</p>
+            <h2 class="card__price">13 000 руб</h2>
+            <button class="button card__button">В корзину</button>
+          </div>
+          <div class="card">
+            <img src="images/germany/germany05.jpg" alt="" class="card__img">
+            <h3 class="card__author">Вульф Бауэр</h3>
+            <h2 class="card__name-art">Дятлы</h2>
+            <p class="card__material">Бумага, акрил (50х80)</p>
+            <h2 class="card__price">20 000 руб</h2>
+            <button class="button card__button">В корзину</button>
+          </div>
+          <div class="card">
+            <img src="images/germany/germany06.jpg" alt="" class="card__img">
+            <h3 class="card__author">Вальтер Хартманн</h3>
+            <h2 class="card__name-art">Большие воды</h2>
+            <p class="card__material">Бумага, акрил (50х80)</p>
+            <h2 class="card__price">23 000 руб</h2>
+            <button class="button card__button">В корзину</button>
+          </div>
+        </div>
+        <div class="catalog__card" id="england">
+          <div class="card">
+            <img src="images/england/england01.jpg" alt="" class="card__img">
+            <h3 class="card__author">Пол Смит</h3>
+            <h2 class="card__name-art">Дикий зверь</h2>
+            <p class="card__material">Акварель, бумага (50х80)</p>
+            <h2 class="card__price">19 500 руб</h2>
+            <button class="button card__button">В корзину</button>
+          </div>
+          <div class="card">
+            <img src="images/england/england02.jpg" alt="" class="card__img">
+            <h3 class="card__author">Джон Уайт</h3>
+            <h2 class="card__name-art">Скалистый берег</h2>
+            <p class="card__material">Цветная литография (40х60)</p>
+            <h2 class="card__price">17 500 руб</h2>
+            <button class="button card__button">В корзину</button>
+          </div>
+          <div class="card">
+            <img src="images/england/england03.jpg" alt="" class="card__img">
+            <h3 class="card__author">Джим Уотсон</h3>
+            <h2 class="card__name-art">Река и горы</h2>
+            <p class="card__material">Акварель, бумага (50х80)</p>
+            <h2 class="card__price">20 500 руб</h2>
+            <button class="button card__button">В корзину</button>
+          </div>
+          <div class="card">
+            <img src="images/england/england04.jpg" alt="" class="card__img">
+            <h3 class="card__author">Юджин Зиллион</h3>
+            <h2 class="card__name-art">Белый попугай</h2>
+            <p class="card__material">Цветная литография (40х60)</p>
+            <h2 class="card__price">15 500 руб</h2>
+            <button class="button card__button">В корзину</button>
+          </div>
+          <div class="card">
+            <img src="images/england/england05.jpg" alt="" class="card__img">
+            <h3 class="card__author">Эрик Гиллман</h3>
+            <h2 class="card__name-art">Ночная рыба</h2>
+            <p class="card__material">Бумага, акрил (50х80)</p>
+            <h2 class="card__price">12 500 руб</h2>
+            <button class="button card__button">В корзину</button>
+          </div>
+          <div class="card">
+            <img src="images/england/england06.jpg" alt="" class="card__img">
+            <h3 class="card__author">Альфред Барр</h3>
+            <h2 class="card__name-art">Рыжий кот</h2>
+            <p class="card__material">Цветная литография (40х60)</p>
+            <h2 class="card__price">21 000 руб</h2>
             <button class="button card__button">В корзину</button>
           </div>
         </div>
@@ -104,7 +202,7 @@
     <section class="promo">
       <div class="promo__container">
         <div class="promo__div">
-          <img src="images/Star 2.svg" alt="star" class="star-logo">
+          <img src="images/icons/Star 2.svg" alt="star" class="star-logo">
           <h2 class="promo__title">Новая коллекция французских авторов</h2>
         </div>
         <p class="promo__description">Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны
@@ -123,18 +221,18 @@
           поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким
           активом.</p>
           <div class="team__photo">
-            <img class="team__photo-img" src="images/Ellipse 30.jpg" alt="girl">
-            <img class="team__photo-img" src="images/Ellipse 31.jpg" alt="man">
-            <img class="team__photo-img" src="images/Ellipse 32.jpg" alt="man 2">
+            <img class="team__photo-img" src="images/team/Ellipse 30.jpg" alt="girl">
+            <img class="team__photo-img" src="images/team/Ellipse 31.jpg" alt="man">
+            <img class="team__photo-img" src="images/team/Ellipse 32.jpg" alt="man 2">
           </div>
         </div>
       </div>
     </section>
     <footer class="footer">
-      <div class="container footer__div ">
+      <div class="footer__container footer__div ">
         <div class="footer__inner">
           <a href="#" class="footer__logo">
-            <img class="footer__logo_img" src="images/logo.svg" alt="logo">
+            <img class="footer__logo_img" src="images/icons/logo.svg" alt="logo">
           </a>
           <div class="phone">
             <a href="tel:+79995435454" class="phone__number">+7 (999) 543-54-54</a>
@@ -179,5 +277,6 @@
       </div>
     </footer>
   </div>
+  <script src="scripts/script.js"></script>
 </body>
 </html>
