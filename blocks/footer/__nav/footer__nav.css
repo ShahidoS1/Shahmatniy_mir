@@ -4,3 +4,10 @@
   align-items: start;
   gap: 60px;
 }
+
+
+@media (max-width: 780px) {
+  .footer__nav {
+    margin-right: 75px;
+  }
+}

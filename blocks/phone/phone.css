@@ -4,3 +4,10 @@
   flex-direction: column;
   gap: 8px;
 }
+
+
+@media (max-width: 780px) {
+  .phone {
+    margin-top: 0;
+  }
+}

@@ -5,3 +5,10 @@
   color: #fff;
   margin-bottom: 10px;
 }
+
+@media (max-width: 780px) {
+  .promo__description {
+    max-width: 690px;
+    margin-bottom: 20px;
+  }
+}

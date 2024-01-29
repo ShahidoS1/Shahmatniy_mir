@@ -1,6 +1,15 @@
 .promo__title {
   padding: 0;
   font-size: 40px;
+  font-weight: 700;
   line-height: 40px;
   color: #E1EDE6;
+}
+
+@media (max-width: 780px) {
+  .promo__title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1;
+  }
 }

@@ -3,3 +3,9 @@
   gap: 30px;
   margin-bottom: 70px;
 }
+
+@media (max-width: 780px) {
+  .team {
+    flex-direction: column;
+  }
+}

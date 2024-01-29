@@ -1,5 +1,5 @@
-.intro__image {
+.team__img {
   display: block;
-  width: 100%;
+  max-width: 510px;
   height: 100%;
 }

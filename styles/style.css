@@ -11,6 +11,7 @@
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__recicle/nav__recicle.css);
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__img/intro__img.css);
 @import url(../blocks/intro/__left/intro__left.css);
 @import url(../blocks/intro/__image/intro__image.css);
 @import url(../blocks/intro/__title/intro__title.css);
@@ -38,12 +39,14 @@
 @import url(../blocks/promo/__description/promo__description.css);
 @import url(../blocks/promo/__button/prommo__button.css);
 @import url(../blocks/team/team.css);
+@import url(../blocks/team/__img/team__img.css);
 @import url(../blocks/team/__desc/team__desc.css);
 @import url(../blocks/team/__title/team__title.css);
 @import url(../blocks/team/__text/team__text.css);
 @import url(../blocks/team/__photo/team__photo.css);
 @import url(../blocks/team/__photo-img/team__photo-img.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__inner/footer__inner.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__div/footer__div.css);
 @import url(../blocks/footer/__logo/footer__logo.css);

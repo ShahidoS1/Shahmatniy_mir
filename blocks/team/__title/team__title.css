@@ -5,3 +5,11 @@
   line-height: 1.1;
   margin-bottom: 20px;
 }
+
+
+@media (max-width: 780px) {
+  .team__title {
+    margin-bottom: 30px;
+    font-style: 30px;
+  }
+}

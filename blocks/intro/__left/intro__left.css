@@ -1,4 +1,12 @@
 .intro__left {
+  display: flex;
+  flex-direction: column;
   width: 540px;
-  height: 331px;
+  height: 100%;
+}
+
+@media (max-width: 780px) {
+  .intro__left {
+    max-width: 330px;
+  }
 }

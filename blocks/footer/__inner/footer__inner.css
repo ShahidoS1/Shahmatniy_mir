@@ -1,0 +1,8 @@
+@media (max-width: 780px) {
+  .footer__inner {
+      display: flex;
+      justify-content: space-between;
+      width: 690px;
+      margin-bottom: 30px;
+    }
+}

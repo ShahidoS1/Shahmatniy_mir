@@ -19,3 +19,12 @@
 .prommo__button:active {
   background: #D9B949;
 }
+
+
+
+@media (max-width: 780px) {
+  .prommo__button {
+    margin-top: 10px;
+    width: 210px;
+  }
+}
