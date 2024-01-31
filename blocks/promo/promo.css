@@ -9,7 +9,7 @@
   margin: 0 auto 70px;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1023px) {
   .promo {
     background-image: url('../../images/pic_background_tablet.jpg');
   }
