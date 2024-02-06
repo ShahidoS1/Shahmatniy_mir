@@ -1,0 +1,7 @@
+.main__item {
+  width: 263px;
+  display: flex;
+  border: 2px solid rgb(31, 31, 31);
+  border-radius: 66px;
+  padding: 20px;
+}
