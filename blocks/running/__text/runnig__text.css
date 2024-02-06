@@ -1,0 +1,13 @@
+.running__text {
+  display: inline-block;
+  font-family: Merriweather;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #ffffff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0 12px;
+  
+}
+

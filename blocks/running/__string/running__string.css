@@ -1,0 +1,18 @@
+.running__string {
+  display: flex;
+  align-items: center;
+  /* background-color: #F54932; */
+  width: 2335px;
+  padding: 18px 12px 18px 12px;
+  /* animation: marquee 10s linear infinite; */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}

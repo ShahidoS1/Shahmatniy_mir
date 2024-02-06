@@ -1,0 +1,8 @@
+.main__header {
+  max-width: 1920px;
+  background-image: url(../../../images/back1920.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  block-size: cover;
+  min-height: 700px;
+}

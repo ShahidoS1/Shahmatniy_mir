@@ -7,36 +7,43 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600&family=Merriweather:wght@400;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Merriweather:wght@400;700&display=swap"
     rel="stylesheet">
   
   <title>Шахматый Мир</title>
 </head>
-<body>
-  <div class="page">
+<body class="page">
     <main class="main">
-      <div class="container"> 
-        <div class="main__inner">
-          <a class="logo" href="#">
-            <img class="logo__img" src="images/logo.svg" alt="logo">
-          </a>
-          <div class="main__top">
-            <h2 class="main__title">Превратите уездный город</h2>
-            <h2 class="main__title main__title-second">в столицу земного шара</h2>
-            <p class="main__text ">Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам</p>
-            <ul class="main__list">
-              <li class="main__item">
-                <a class="main__link" href="#">Поддержать шахматную мысль</a>
-              </li>
-              <li class="main__item">
-                <a class="main__link" href="#">Подробнее о&nbsp;турнире</a>
-              </li>
-            </ul>
+      <section class="main__header">
+        <div class="container">
+          <div class="main__inner">
+            <a class="logo" href="#">
+              <img class="logo__img" src="images/logo.svg" alt="logo">
+            </a>
+            <div class="main__top">
+              <h2 class="main__title">Превратите уездный город</h2>
+              <h2 class="main__title main__title-second">в столицу земного шара</h2>
+              <p class="main__text ">Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам</p>
+              <div class="main__buttons">
+                <button class="main__button main__button-black" href="#">Поддержать <br>шахматную мысль</button>
+                <button class="main__button" href="#">Подробнее <br>о&nbsp;турнире</button>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+      <div class="running">
+        <div class="running__string">
+          <h3 class="running__text running__animation">Дело помощи утопающим — дело рук самих утопающих!</h3>
+          <div class="running__dot running__animation"></div>
+          <h3 class="running__text">Шахматы двигают вперед не только культуру, но и экономику!</h3>
+          <div class="running__dot running__animation"></div>
+          <h3 class="running__text running__animation">Лед тронулся, господа присяжные заседатели!</h3>
+          <div class="running__dot running__animation"></div>
+        </div>
       </div>
+      
     </main>
-  </div>
 <script src="scripts/script.js"></script>
 </body>
 </html>

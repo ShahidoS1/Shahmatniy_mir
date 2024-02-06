@@ -1,0 +1,12 @@
+.main__button-black {
+  background-color: #1F1F1F;
+  color: #ffffff;
+  border: none;
+  padding: 15px;
+}
+
+.main__button-black:hover {
+  background-color: #FBCE51;
+  color: #1F1F1F;
+  transition: 0.5s ease;
+}
