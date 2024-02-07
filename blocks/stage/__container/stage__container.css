@@ -1,0 +1,7 @@
+.stage__container {
+  position: relative;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

@@ -1,0 +1,7 @@
+.game__container {
+  position: relative;
+  padding-top: 64px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

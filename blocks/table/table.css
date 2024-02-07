@@ -1,0 +1,7 @@
+.table {
+  display: block;
+  width: 704px;
+  border-collapse: collapse;
+  text-align: left;
+  margin-bottom: 48px;
+}

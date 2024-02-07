@@ -1,0 +1,9 @@
+.stage__item {
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+  background-image: url(../../../images/back-grid.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}

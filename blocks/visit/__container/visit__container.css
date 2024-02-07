@@ -1,0 +1,17 @@
+.visit__container {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visit__container::after {
+  display: block;
+  content: "";
+  background-image: url(../../../images/image03.jpeg);
+  flex-basis: 394px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+}

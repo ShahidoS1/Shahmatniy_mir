@@ -1,0 +1,15 @@
+.visit__title {
+  display: block;
+  max-width: 764px;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: #313131;
+  text-transform: uppercase;
+}
+
+.visit__title span {
+  color: #F54932;
+  font-weight: 700;
+}

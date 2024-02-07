@@ -1,0 +1,15 @@
+.game__title {
+  max-width: 704px;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: #313131;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.game__title span {
+  color: #F54932;
+  font-weight: 700;
+}

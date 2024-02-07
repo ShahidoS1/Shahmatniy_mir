@@ -1,0 +1,19 @@
+.stage__title {
+  max-width: 806px;
+  font-family: Merriweather;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #313131;
+  margin-bottom: 54px;
+}
+
+.stage__title span {
+  display: inline-block;
+  width: 280px;
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #3057A2;
+}
