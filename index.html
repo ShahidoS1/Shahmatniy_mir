@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles/index.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -25,8 +27,8 @@
               <h2 class="main__title main__title-second">в столицу земного шара</h2>
               <p class="main__text ">Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам</p>
               <div class="main__buttons">
-                <button class="main__button main__button-black" href="#">Поддержать <br>шахматную мысль</button>
-                <button class="main__button" href="#">Подробнее <br>о&nbsp;турнире</button>
+                <a class="main__button main__button-black" href="#visit">Поддержать <br>шахматную мысль</a>
+                <a class="main__button" href="#aboutGame">Подробнее <br>о&nbsp;турнире</a>
               </div>
             </div>
           </div>
@@ -34,20 +36,28 @@
       </section>
       <div class="running">
         <div class="running__string">
-          <h3 class="running__text running__animation">Дело помощи утопающим — дело рук самих утопающих!</h3>
-          <div class="running__dot running__animation"></div>
+          <h3 class="running__text">Дело помощи утопающим — дело рук самих утопающих!</h3>
+          <div class="running__dot"></div>
           <h3 class="running__text">Шахматы двигают вперед не только культуру, но и экономику!</h3>
-          <div class="running__dot running__animation"></div>
-          <h3 class="running__text running__animation">Лед тронулся, господа присяжные заседатели!</h3>
-          <div class="running__dot running__animation"></div>
+          <div class="running__dot"></div>
+          <h3 class="running__text">Лед тронулся, господа присяжные заседатели!</h3>
+          <div class="running__dot"></div>
+        </div>
+        <div class="running__string">
+          <h3 class="running__text">Дело помощи утопающим — дело рук самих утопающих!</h3>
+          <div class="running__dot"></div>
+          <h3 class="running__text">Шахматы двигают вперед не только культуру, но и экономику!</h3>
+          <div class="running__dot"></div>
+          <h3 class="running__text">Лед тронулся, господа присяжные заседатели!</h3>
+          <div class="running__dot"></div>
         </div>
       </div>
-      <section class="visit">
+      <section class="visit" id="visit">
         <div class="container visit__container">
           <h2 class="visit__title">Чтобы поддержать Международный&nbsp;васюкинский турнир посетите лекцию на тему: <span>«Плодотворная дебютная идея»</span></h2>
         </div>
       </section>
-      <section class="game">
+      <section class="game" id="aboutGame">
         <div class="container game__container">
           <img ></>
           <img class="game__img" src="images/image02.png" alt="шахматист">
@@ -118,8 +128,105 @@
           <img class="stage__img" src="images/plane.png" alt="самолет">
         </div>
       </section>
-      
+      <section class="participants">
+        <div class="container participants__container">
+          <div class="particapants__head">
+            <h2 class="participants__title">Участники турнира</h2>
+            <div class="participants__buttons">
+              
+              <button class="participants__btn" id="btn-prew"><svg class="participants__btn-img" width="44" height="44" viewBox="0 0 44 44" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)" fill="#313131" />
+                <path d="M24.5382 30.4614L16.0767 21.9999L24.5382 13.5384" stroke="white" stroke-width="2" stroke-linecap="square" />
+              </svg></button>
+              <div class=" participants__pagination">3/2</div>
+              <button class="participants__btn" id="btn-next"><svg class="participants__btn-img" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="22" cy="22" r="22" fill="#313131" />
+                <path d="M19.4618 13.5385L27.9233 22L19.4618 30.4615" stroke="white" stroke-width="2" stroke-linecap="square" />
+              </svg></button>
+            </div>
+            
+          </div>
+          <div class="participants__slider">
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><div class="participants__card card">
+                  <img src="images/shahmatyst.jpeg" alt="шахматист" class="card__img">
+                  <h3 class="card__title">Хозе-Рауль Капабланка</h3>
+                  <p class="card__desc">Чемпион мира по шахматам</p>
+                  <a class="card__link" href="#">Подробнее</a>
+                </div></div>
+                <div class="swiper-slide"><div class="participants__card card">
+                  <img src="images/shahmatyst.jpeg" alt="шахматист" class="card__img">
+                  <h3 class="card__title">Эммануил Ласкер</h3>
+                  <p class="card__desc">Чемпион мира по шахматам</p>
+                  <a class="card__link" href="#">Подробнее</a>
+                </div></div>
+                <div class="swiper-slide"><div class="participants__card card">
+                  <img src="images/shahmatyst.jpeg" alt="шахматист" class="card__img">
+                  <h3 class="card__title">Александр Алехин</h3>
+                  <p class="card__desc">Чемпион мира по шахматам</p>
+                  <a class="card__link" href="#">Подробнее</a>
+                </div></div>
+                <div class="swiper-slide"><div class="participants__card card">
+                  <img src="images/shahmatyst.jpeg" alt="шахматист" class="card__img">
+                  <h3 class="card__title">Арон Нимцович</h3>
+                  <p class="card__desc">Чемпион мира по шахматам</p>
+                  <a class="card__link" href="#">Подробнее</a>
+                </div></div>
+                <div class="swiper-slide"><div class="participants__card card">
+                  <img src="images/shahmatyst.jpeg" alt="шахматист" class="card__img">
+                  <h3 class="card__title">Рихард Рети</h3>
+                  <p class="card__desc">Чемпион мира по шахматам</p>
+                  <a class="card__link" href="#">Подробнее</a>
+                </div></div>
+                <div class="swiper-slide"><div class="participants__card card">
+                  <img src="images/shahmatyst.jpeg" alt="шахматист" class="card__img">
+                  <h3 class="card__title">Остап Бендер</h3>
+                  <p class="card__desc">Гроссмейстер</p>
+                  <a class="card__link" href="#">Подробнее</a>
+                </div></div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+            </div>
+            
+            
+            
+            
+            
+            
+          </div>
+        </div>
+      </section>
+      <div class="running">
+        <div class="running__string">
+          <h3 class="running__text">Дело помощи утопающим — дело рук самих утопающих!</h3>
+          <div class="running__dot"></div>
+          <h3 class="running__text">Шахматы двигают вперед не только культуру, но и экономику!</h3>
+          <div class="running__dot"></div>
+          <h3 class="running__text">Лед тронулся, господа присяжные заседатели!</h3>
+          <div class="running__dot"></div>
+        </div>
+        <div class="running__string">
+          <h3 class="running__text">Дело помощи утопающим — дело рук самих утопающих!</h3>
+          <div class="running__dot"></div>
+          <h3 class="running__text">Шахматы двигают вперед не только культуру, но и экономику!</h3>
+          <div class="running__dot"></div>
+          <h3 class="running__text">Лед тронулся, господа присяжные заседатели!</h3>
+          <div class="running__dot"></div>
+        </div>
+      </div>
     </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <p class="footer__desc">Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно
+        познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».</p>
+      </div>
+    </footer>
 <script src="scripts/script.js"></script>
 </body>
 </html>

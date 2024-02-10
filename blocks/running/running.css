@@ -1,5 +1,7 @@
 .running {
+  display: flex;
   background-color: #F54932;
   max-width: 100%;
+  overflow-x: hidden;
 }
 

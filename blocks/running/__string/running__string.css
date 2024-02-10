@@ -3,17 +3,19 @@
   align-items: center;
   /* background-color: #F54932; */
   width: 2335px;
-  padding: 18px 12px 18px 12px;
+  padding: 18px 12px 18px 0;
   gap: 12px;
-  /* animation: marquee 10s linear infinite; */
+  animation: marquee 20s infinite linear;
 }
 
 @keyframes marquee {
-  0% {
+  from {
     transform: translateX(0%);
+    transform-origin: left center;
   }
 
-  100% {
+  to {
     transform: translateX(-100%);
+    transform-origin: right center;
   }
 }

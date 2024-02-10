@@ -1,5 +1,6 @@
 .running__dot {
   display: block;
+  flex-shrink: 0;
   width: 6px;
   height: 6px;
   background-color: #fff;
